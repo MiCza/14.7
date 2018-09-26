@@ -1,0 +1,54 @@
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 auto;
+	text-align: center;
+	background-image: url("https://images.pexels.com/photos/33999/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260");
+	background-size: cover;
+	color: black;
+	font-weight: 400;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	}
+
+.contactForm {
+	margin: 50px 0;
+}
+
+.contactEmail {
+	text-decoration: none;
+	color: red;
+	font-weight: 500;
+}
+
+.contactItem {
+	margin-bottom: 30px;
+}
+
+input{
+width: 200px;
+height: 30px;
+text-align: center;
+ }
+
+ button{
+   background-color: red;
+    border: none;
+    color: white;
+    width: 100px;
+ 	height: 30px;
+    text-align: center;
+    text-decoration: none;
+
+    }
+button:hover {
+	cursor: pointer;
+}
